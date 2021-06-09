@@ -17,8 +17,8 @@ console.log(numero.length);
 let texto4 = prompt("Ingrese una palabra con 9 letras");
 console.log(texto4.charAt(8));
 
-let texto5 = "hola usted";
-console.log(texto5.replace(" ","*"));
+let texto5 = "hola usuario, ¿como estas?";
+console.log(texto5.replaceAll(" ","*"));
 
 let texto6 = prompt("Escriba una letra");
 console.log(texto6.includes("e"));
